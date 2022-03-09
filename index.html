@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Display properties</h1>
+        <!-- Display properties table --> 
+        <table id = "display properties">
+            <thead>
+                <tr>
+                    <th class="header-value">Value</th>
+                    <th class="header-description">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="value">Inline</td>
+                    <td class="description">Displays an element as an inline element. Any height and width properties will have no effect</td>
+                </tr>
+                <tr>
+                    <td class="value">block</td>
+                    <td class="description">Displays an element as a block element. It starts on a new line, and takes up the whole width</td>
+                </tr>
+                <tr>
+                    <td class="value">contents</td>
+                    <td class="description">Makes the container disappear, making the child elements children of the element the next level up in the DOM</td>
+                </tr>
+                <tr>
+                    <td class="value">flex</td>
+                    <td class="description">Displays an element as a block-level flex container	</td>
+                </tr>
+                <tr>
+                    <td class="value">inline-block</td>
+                    <td class="description">Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>CSS Position properties</h1>
+        <!-- position properties table --> 
+        <table>
+            <thead>
+                <tr>
+                    <th class="header-value">Value</th>
+                    <th class="header-description">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="value">Static</td>
+                    <td class="description">Default value. Elements render in order, as they appear in the document flow</td>
+                </tr>
+                <tr>
+                    <td class="value"> absolute </td>
+                    <td class="description"> The element is positioned relative to its first positioned (not static) ancestor element </td>
+                </tr>
+                <tr>
+                    <td class="value"> fixed </td>
+                    <td class="description"> The element is positioned relative to the browser window	
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value"> relative </td>
+                    <td class="description"> The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position </td>
+                </tr>
+                <tr>
+                    <td class="value"> sticky </td>
+                    <td class="description"> The element is positioned based on the user's scroll position
+                        A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+                        <br> 
+                        Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix. </td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+
+    </main>
+
+</body>
+</html>
